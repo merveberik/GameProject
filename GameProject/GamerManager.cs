@@ -18,11 +18,11 @@ namespace GameProject
         {
             if (_userValidationManager.Validate(gamer) == true)
             {
-                Console.WriteLine("Kayıt Oldu.");
+                Console.WriteLine(gamer.FirstName +" "+ gamer.LastName + " regestered.");
             }
             else
             {
-                Console.WriteLine("Doğrulama başarısız, kayıt başarısız.");
+                Console.WriteLine("Verification failed, registration failed");
             }
         }
 

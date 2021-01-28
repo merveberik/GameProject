@@ -8,17 +8,17 @@ namespace GameProject
     {
         public void AddCampaign(Campaign campaing)
         {
-            Console.WriteLine(campaing.CampaignName + " kampanyası eklendi:" + "%"+ campaing.CampaingDiscount + " indirim uygulandı");
+            Console.WriteLine(campaing.CampaignName + " was added campaign:" + "%"+ campaing.CampaingDiscount + " has discount");
         }
 
         public void DeleteCampaign(Campaign campaing)
         {
-            Console.WriteLine(campaing.CampaignName + " kampanyası silindi.");
+            Console.WriteLine(campaing.CampaignName + " was deleted.");
         }
 
         public void UpdateCampaign(Campaign campaing)
         {
-            Console.WriteLine(campaing.CampaignName + " kapmanyası silindi.");
+            Console.WriteLine(campaing.CampaignName + " was updated.");
         }
     }
 }

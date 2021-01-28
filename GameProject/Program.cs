@@ -35,7 +35,7 @@ namespace GameProject
 
         
         Decision:
-            Console.WriteLine("Ücretsiz 'Zuma' oyunu almak ister misin: Y ya da N");
+            Console.WriteLine("Do you want to get free 'Zuma' game: Y or N");
         
             string userdecision = (Console.ReadLine().ToUpper());
             switch (userdecision)
@@ -45,10 +45,10 @@ namespace GameProject
                     goto Start;
                 case "N":
                 Start:
-                    Console.WriteLine("Diğer oyunlar için menüye gidiniz.");
+                    Console.WriteLine("Go to the menu for other games.");
                     break;
                 default:
-                    Console.WriteLine("Yanlış seçim.");
+                    Console.WriteLine("Invalid choice.");
                     goto Decision;
             }
         
